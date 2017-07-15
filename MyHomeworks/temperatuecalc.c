@@ -46,6 +46,22 @@ void ctof()
 }
 void ftoc()
 {
-
-
+	float celsius,fahrenheit;
+	//printf("Write Celsius\n");
+	//scanf("%f",&fahrenheit);
+	printf("Write Fahrenheit\n");
+	scanf("%f",&fahrenheit);
+	celsius = (fahrenheit - 32) * 5.0/9.0;
+	printf("%1.1f - Farenheit is %1.1f Celsius\n",fahrenheit,celsius);
+	
 }
+
+
+
+
+
+
+
+
+
+
