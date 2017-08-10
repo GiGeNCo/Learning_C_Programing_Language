@@ -1,0 +1,96 @@
+git help
+git help config
+
+=========================================================================
+
+git config --global user.name "abcdach"
+git config --global user.email "d.chkhaidze@gmail.com"
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
+
+=========================================================================
+
+
+git init
+# Sets up the necessary Git files
+# Initialized empty Git repository in /Users/you/Hello-World/.git/
+
+
+git add README
+# Stages your README file, adding it to the list of files to be committed
+
+git commit -m 'first commit'
+# Commits your files, adding the message "first commit"
+
+
+
+=========================================================================
+
+git add file1 file2
+git add --all
+git ass *.txt
+
+
+------------------------------------------------------
+nano RX  				# ტექსტის ცვლილება 
+git add RX				# ფაილის ცვლილების დაფიქსირება
+git commit -m "cvlilebis komentari"	# ცვლიებათა საფეხურის დამახსოვრება 
+------------------------------------------------------
+nano RX			# ტექსტის ცვლილება 
+git add RX		# ფაილის ცვლილების დაფიქსირება
+git reset HEAD RX 	# ფაილის ცვლილების განფიქსირება
+git checkout -- RX	# RX-ს ფაილში ცვლილების გაუქმება - წინა ტექსტის დაბრუნება 
+------------------------------------------------------
+nano RX					# ტექსტის ცვლილება 
+git commit -a -m "cvlilebis komentari"	# ფაილის ცვლილების დაფიქსირება და ცვლიებათა საფეხურის დამახსოვრება 
+------------------------------------------------------
+git reset --soft HEAD^				# ბოლო commit-ს განადგურება - ცვლილებები რჩება 
+git reset --soft HEAD^^			# ბოლო 2 commit-ს განადგურება
+git commit --amend -m "eeeee"		# ბოლო commit-ს სახელის შეცვლა
+git reset --hard HEAD^			# ბოლო commit-ს განადგურება - ცვლილებების გარეშე - ტოტალური დაბრუნება ერტთი ნაბიჯიტ უკან 
+
+
+------------------------------------------------------
+Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/abcdach/aaa.git
+git push -u origin master
+------------------------------------------------------
+Push an existing repository from the command line
+
+git remote add origin https://github.com/abcdach/aaa.git
+git push -u origin master
+
+------------------------------------------------------
+
+git remote rm origin
+
+git remote -v
+
+git log
+
+git pull  -u origin master
+
+
+################################################################################################
+
+
+git clone https://github.com/abcdach/aaa.git		# კლონირირება დფალტ ფოლდერის სახელის დირექტორიაში
+git clone https://github.com/abcdach/aaa.git xxx	# კლონირება ახალი ფლდერის სახელის მითითებით
+
+
+git branch cat			# brenchis Seqmna 
+git brench 			# brenchis naxva
+git checkout cat		# cat bewnchzae gadasxvla
+
+
+git checkout master 		
+git merge cat			# cat brenchis mierteba master- dzirtad brenchze
+
+git branch -d cat		# branch-s washlaaa
+	
+git checkout -b admin 		# branchis sheqmna da gadasvla masze
