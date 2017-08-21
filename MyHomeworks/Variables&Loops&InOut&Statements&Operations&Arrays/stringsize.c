@@ -30,7 +30,8 @@ void txt(char text [])
 	masivis elementebis raodenobaze. anu tu gvaqvs int tipis 5 elementiani masivi schirdeba
 	mas 4 baiti gamravlebuli 5 ze, titouli elementistvis 4 baiti.
 	xolo mis misamarts schirdeba shedarebit naklebi imdeni ramdensac standartulad gamohyops
-	kompiuteri misamartis chasawerad, anu rodesac vbechdavt masivis zomas ibechdeba anu gamoiyofa 
-	is zoma ra misamartis zomasac gamohyops kompiuteri am masivistvis
+	kompiuteri misamartis chasawerad, e.i rodesac vbechdavt masivis zomas ibechdeba anu gamoiyofa 
+	is zoma ra misamartis zomasac gamohyops kompiuteri am masivistvis.
+	sabolood masivebi C enashi aris mimtitebeli mis pirvel elementze, anu sheicavs mexsierebis misamarts
 
 */
