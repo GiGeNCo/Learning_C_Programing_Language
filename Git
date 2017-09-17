@@ -4,7 +4,7 @@ git help config
 =========================================================================
 
 git config --global user.name "abcdach"
-git config --global user.email "d.chkhaidze@gmail.com"
+git config --global user.email "gigalfc@gmail.com"
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
 
