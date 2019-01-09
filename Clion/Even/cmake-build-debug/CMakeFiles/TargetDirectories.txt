@@ -1,0 +1,3 @@
+C:/Users/LaLu/Desktop/MyC/Learning_C_Programing_Language/Clion/Even/cmake-build-debug/CMakeFiles/Even.dir
+C:/Users/LaLu/Desktop/MyC/Learning_C_Programing_Language/Clion/Even/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LaLu/Desktop/MyC/Learning_C_Programing_Language/Clion/Even/cmake-build-debug/CMakeFiles/rebuild_cache.dir

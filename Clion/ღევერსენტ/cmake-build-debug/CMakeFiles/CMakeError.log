@@ -1,0 +1,7 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/LaLu/Desktop/MyC/Learning_C_Programing_Language/Clion/ღევერსენტ/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_18d6a/fast"
+mingw32-make.exe: *** INTERNAL: readdir: Invalid argument.  Stop.
+
+

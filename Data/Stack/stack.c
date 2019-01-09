@@ -29,7 +29,7 @@ void main()
             case 3: display();
                     break;
             case 4: exit(0);
-            
+			            
             default: printf("\nWrong Choice!!");
         }
     }
