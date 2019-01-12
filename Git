@@ -1,9 +1,9 @@
-git help
+﻿git help
 git help config
 
 =========================================================================
 
-git config --global user.name "abcdach"
+git config --global user.name "GiGeNCo"
 git config --global user.email "gigalfc@gmail.com"
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
@@ -79,8 +79,8 @@ git pull  -u origin master
 ################################################################################################
 
 
-git clone https://github.com/abcdach/aaa.git		# კლონირირება დფალტ ფოლდერის სახელის დირექტორიაში
-git clone https://github.com/abcdach/aaa.git xxx	# კლონირება ახალი ფლდერის სახელის მითითებით
+git clone https://github.com/GiGeNCo/aaa.git		# კლონირირება დფალტ ფოლდერის სახელის დირექტორიაში
+git clone https://github.com/GiGeNCo/aaa.git xxx	# კლონირება ახალი ფლდერის სახელის მითითებით
 
 
 git branch cat			# brenchis Seqmna 
