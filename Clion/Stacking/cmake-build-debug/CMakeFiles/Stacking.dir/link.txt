@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Stacking.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\Stacking.dir/objects.a @CMakeFiles\Stacking.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Stacking.dir/objects.a -Wl,--no-whole-archive  -o Stacking.exe -Wl,--out-implib,libStacking.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Stacking.dir\linklibs.rsp
